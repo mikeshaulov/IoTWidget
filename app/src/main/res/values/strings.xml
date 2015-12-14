@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IoT Widgets</string>
+
+    <string name="title_section1">Devices Detected in Your Network</string>
+    <string name="title_section2">Shutters</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+</resources>
