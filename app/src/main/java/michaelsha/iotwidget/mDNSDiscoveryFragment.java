@@ -48,7 +48,7 @@ public class mDNSDiscoveryFragment extends Fragment implements mDNSDiscovery.INo
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
-        mmDNSDiscovery = new mDNSDiscovery(getContext());
+        mmDNSDiscovery = new mDNSDiscovery(getActivity());
         mDNSListView = (ListView) rootView.findViewById(R.id.mDNSListView);
         mDNSListAdapter = new ArrayAdapter(getContext(),android.R.layout.simple_list_item_1,mmDNSDiscovery.getServiceList());
         mDNSListView.setAdapter(mDNSListAdapter);
